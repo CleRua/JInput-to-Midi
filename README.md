@@ -3,7 +3,8 @@ Transform a Gamepad signal into a MIDI signal using a JInput and a virtual midi 
 
 # Before running the code #
 
-If you are planning to use a PS3 controller you have to use Better DS3 (Programs Needed/DS3 Tool) and configure the controller as a XBox controller.\n
+If you are planning to use a PS3 controller you have to use Better DS3 (Programs Needed/DS3 Tool) and configure the controller as a XBox controller.
+
 Be sure to install LoopMidi (Programs Needed/LoopMidi) to create a virtual midi device on your computer. 
 By default, the code connects itself to a virtual midi device named "MIDI_Java".
 
