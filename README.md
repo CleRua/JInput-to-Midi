@@ -13,7 +13,7 @@ By default, the code connects itself to a virtual midi device named "MIDI_Java".
 
 ## 1st line : type of comand (from 0 to 3) : ##
   - 0 -> Button type of command : Sends a MIDI signal when the button is pressed
-  - 1 -> Joystick type of command : Sends a MIDI signal each time the state of the joystick changes and sends an OFF message when the joystick signal is around 0.7
+  - 1 -> Joystick type of command : Sends a MIDI signal each time the state of the joystick changes and sends an OFF message when the joystick signal is in [-0.1 ; 0.1].
   - 2 -> Trigger type of command : Just like a Joystick command but the intensity of the message increases/decreases depending on the time a direction is hold on the axis.
   - 3 -> Directional Cross type of command : Each direction of the cross sends a different note (the 4 notes are consecutive)
   
