@@ -31,16 +31,20 @@ By default, the code connects itself to a virtual midi device named "MIDI_Java".
 ## 5th line : Name of the virtual MIDI device ##
 
 ## Example (joystick with 16 components) : ##
-[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0] \r\n
 [0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0]
+
+[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0]
+
 [78,79,80,81,82,89,76,79,81,82,83,84,86,88,91,93]
+
 [120,120,120,120,120,120,120,120,120,120,120,120,120,120,120,120]
+
 MIDI_Java
 
 
 # More Info #
 
 ## int tempsRafraichissement ##
-sets the interval (in milliseconds) between 2 pollings of the controller 
-(JInput is a library based on polling, I'm still looking for an asynchronous method for reading the controller signals)
+Sets the interval (in milliseconds) between 2 pollings of the controller 
+(JInput is a library based on polling, I'm still looking for an asynchronous method for reading the controller signals).
 
